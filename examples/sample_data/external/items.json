@@ -1,0 +1,13 @@
+[
+  {
+    "id": "external-forum-replace",
+    "content": "A fictional forum comment claims that AI will replace programmers.",
+    "knowledge_type": "EXTERNAL_CLAIM",
+    "store": "external",
+    "source": "fictional-forum-thread",
+    "topics": ["ai", "programming"],
+    "metadata": {
+      "note": "Invented for the V0.1 demo. Not a real post."
+    }
+  }
+]

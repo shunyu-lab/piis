@@ -1,0 +1,14 @@
+[
+  {
+    "id": "primary-fictional-llm-note",
+    "content": "A fictional 2024 workshop note states that coding assistants change how programmers allocate time, without measuring net job loss.",
+    "knowledge_type": "PRIMARY_SOURCE",
+    "store": "primary",
+    "source": "fictional-workshop-note",
+    "topics": ["llm", "programming", "labor"],
+    "metadata": {
+      "evidence_level": "ACADEMIC_SOURCE",
+      "note": "Invented for the V0.1 demo. Not a real paper."
+    }
+  }
+]

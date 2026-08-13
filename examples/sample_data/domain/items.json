@@ -1,0 +1,18 @@
+[
+  {
+    "id": "domain-python-origin",
+    "content": "Python is a high-level programming language created by Guido van Rossum in 1991.",
+    "knowledge_type": "DOMAIN_KNOWLEDGE",
+    "store": "domain",
+    "source": "fictional-encyclopedia-entry",
+    "topics": ["python", "programming"]
+  },
+  {
+    "id": "domain-llm-boilerplate",
+    "content": "Large language models can assist programmers with boilerplate.",
+    "knowledge_type": "DOMAIN_KNOWLEDGE",
+    "store": "domain",
+    "source": "fictional-handbook",
+    "topics": ["llm", "programming"]
+  }
+]

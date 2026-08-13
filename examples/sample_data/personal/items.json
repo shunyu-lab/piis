@@ -1,0 +1,19 @@
+[
+  {
+    "id": "personal-ai-work-structure",
+    "content": "AI is more likely to change the structure of programming work than simply eliminate programmers.",
+    "knowledge_type": "PERSONAL_BELIEF",
+    "store": "personal",
+    "source": "sample-user",
+    "topics": ["ai", "programming"],
+    "confidence": 0.65,
+    "created_at": "2026-01-01T00:00:00Z",
+    "updated_at": "2026-01-01T00:00:00Z",
+    "supporting_evidence": [
+      "Fictional sample belief for the public demo — not a real person's private knowledge."
+    ],
+    "opposing_evidence": [],
+    "related_ids": [],
+    "revisions": []
+  }
+]

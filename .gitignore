@@ -1,0 +1,41 @@
+# secrets
+.env
+.env.local
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# runtime / derived data — not source of truth
+data/processed/**
+!data/processed/.gitkeep
+data/runtime/**
+!data/runtime/.gitkeep
+data/external/**
+!data/external/.gitkeep
+*.db
+*.sqlite
+*.faiss
+*.index
+chroma/
+.cache/
+
+# real personal knowledge must never be published
+data/personal/**
+!data/personal/.gitkeep
+
+# editors / os
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
