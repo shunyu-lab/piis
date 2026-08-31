@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     knowledge_dir: Path = Path("examples/sample_data")
     data_dir: Path = Path("data")
     database_url: str = "sqlite:///./data/runtime/piis.db"
+    assessment_dir: Path = Path("data/assessment/questions")
 
     @property
     def processed_dir(self) -> Path:

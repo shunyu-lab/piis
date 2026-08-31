@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "piis"
-version = "0.1.0"
+version = "0.1.1"
 description = "Personal Information Intelligence System — process external information into claims, compare them with separated knowledge stores, and generate traceable analysis without declaring truth."
 readme = "README.md"
 license = { file = "LICENSE" }

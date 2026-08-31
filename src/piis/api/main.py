@@ -3,6 +3,7 @@ import json
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, HttpUrl
 
+from piis import __version__
 from piis.config.settings import Settings
 from piis.runtime import build_pipeline
 
@@ -10,7 +11,7 @@ settings = Settings()
 pipeline = build_pipeline(settings)
 app = FastAPI(
     title="PIIS",
-    version="0.1.0",
+    version=__version__,
     description="Personal Information Intelligence System",
 )
 
@@ -27,7 +28,7 @@ class ProcessResponse(BaseModel):
 
 @app.get("/")
 def root() -> dict[str, str]:
-    return {"name": "PIIS", "version": "0.1.0"}
+    return {"name": "PIIS", "version": __version__}
 
 
 @app.get("/health")

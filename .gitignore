@@ -34,6 +34,10 @@ chroma/
 data/personal/**
 !data/personal/.gitkeep
 
+# future assessment responses / results are personal; never commit them
+data/assessment/responses/**
+data/assessment/results/**
+
 # editors / os
 .idea/
 .vscode/
